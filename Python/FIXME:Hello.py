@@ -37,10 +37,10 @@ class Dinglemouse(object):
         self.age = age        
         return self
         
-    def setSex(self, sex):
-        if self.sex == None:
-            self.hell = self.hell + ' I am {sex}.'                
-        self.sex = "male" if sex=='M' else "female"
+    def setGender(self, gender):
+        if self.gender == None:
+            self.hell = self.hell + ' I am {gender}.'                
+        self.gender = "male" if gender=='M' else "female"
         return self
         
     def setName(self, name):
