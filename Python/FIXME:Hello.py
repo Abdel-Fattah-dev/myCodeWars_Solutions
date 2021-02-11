@@ -9,7 +9,7 @@
 
 # name
 # age
-# sex ('M' or 'F')
+# gender ('M' or 'F')
 # When the same attribute is assigned multiple times the hello method shows it only once. If this happens the order depends on the first assignment of that attribute, but the value is from the last assignment.
 
 # Examples
